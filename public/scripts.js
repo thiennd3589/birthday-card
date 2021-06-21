@@ -1,3 +1,8 @@
+const card = document.querySelector(".card");
+card.addEventListener("click", () => {
+    card.classList.add("show");
+});
+
 const sendButton = document.getElementById("send");
 
 sendButton.addEventListener("click", () => {
@@ -17,7 +22,7 @@ sendButton.addEventListener("click", () => {
             hidable.item(i).classList.toggle("hide");
         }
 
-        const phead =  document.getElementById('head');
-        phead.textContent = 'Check tài khoản nha!'
+        const phead = document.getElementById("head");
+        phead.textContent = "Check tài khoản nha!";
     });
 });
