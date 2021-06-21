@@ -10,7 +10,7 @@ sendButton.addEventListener("click", () => {
     const acc = document.getElementById("stk").value;
     const bank = document.getElementById("bank").value;
     const body = JSON.stringify({ acc, bank });
-    fetch("http://localhost:8080/send", {
+    fetch("http://47.241.171.41/send", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
