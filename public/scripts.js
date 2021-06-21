@@ -6,7 +6,6 @@ card.addEventListener("click", () => {
 const sendButton = document.getElementById("send");
 
 sendButton.addEventListener("click", () => {
-    console.log("click");
     const acc = document.getElementById("stk").value;
     const bank = document.getElementById("bank").value;
     const body = JSON.stringify({ acc, bank });
