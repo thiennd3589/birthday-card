@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Happy birthday</title>
+    </head>
+    <style></style>
+    <body>
+        <div class="card">
+            <div class="back"></div>
+            <div class="front">
+                <div class="cover-shape-large">
+                    <div class="shape-diamond"></div>
+                    <div class="shape-block"></div>
+                </div>
+                <div class="cover-shape-small">
+                    <div class="shape-diamond"></div>
+                    <div class="shape-block">
+                        <div class="cake">
+                            <div class="layer layer-bottom"></div>
+                            <div class="layer layer-middle"></div>
+                            <div class="layer layer-top"></div>
+                            <div class="icing"></div>
+                            <div class="drip drip1"></div>
+                            <div class="drip drip2"></div>
+                            <div class="drip drip3"></div>
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-container">
+                <p id="head">Chúc mừng sinh nhật bạn Hương!</p>
+                <p class="hidable">
+                    Chúc bạn ngày càng xinh gái, hay ăn chóng lớn!!! Chúc bạn
+                    sớm có người yêu!!!
+                </p>
+                <p class="hidable">Điền thông tin để nhận quà nhá :></p>
+                <div class="gift hidable hide">
+                    <img src="gift.png" alt="gift" />
+                </div>
+                <div class="row hidable">
+                    <span>
+                        <input
+                            class="gate"
+                            id="stk"
+                            type="number"
+                            placeholder="Số tài khoản"
+                        /><label for="stk">STK</label>
+                    </span>
+                    <div class="row hidable">
+                        <span>
+                            <input
+                                class="gate"
+                                id="bank"
+                                type="text"
+                                placeholder="Ngân hàng"
+                            /><label for="bank">Bank</label>
+                        </span>
+                    </div>
+                    <div class="row hidable">
+                        <button type="button" id="send">Nhận quà</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
